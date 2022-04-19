@@ -20,8 +20,8 @@ class IconBtnWithCounter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: press,
       borderRadius: BorderRadius.circular(30),
+      onTap: press,
       child: Stack(
         clipBehavior: Clip.none,
         children: [

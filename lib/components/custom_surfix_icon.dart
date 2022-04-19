@@ -15,7 +15,7 @@ class CustomSurffixIcon extends StatelessWidget {
         getProportionateScreenWidth(20),
         getProportionateScreenWidth(20),
         getProportionateScreenWidth(20),),
-      child: SvgPicture.asset("asset/icons/Mail.svg"),
+      child: SvgPicture.asset("assets/icons/Mail.svg"),
     );
   }
 }

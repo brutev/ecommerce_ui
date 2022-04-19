@@ -3,6 +3,7 @@ import 'package:ecommerce_ui/screens/splash/splash_screen.dart';
 import 'package:ecommerce_ui/theme.dart';
 import 'package:flutter/material.dart';
 
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Verge',
-      theme:theme(),
+      theme: theme(),
       initialRoute: SplashScreen.routeName,
       routes: routes,
     );
